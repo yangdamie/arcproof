@@ -212,10 +212,10 @@ h2, h3 { letter-spacing: 0; }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(255,255,255,.015), rgba(255,255,255,.045) 54%, transparent 56%),
-    repeating-linear-gradient(90deg, transparent 0 145px, rgba(255,255,255,.024) 145px 146px);
+    linear-gradient(90deg, rgba(255,255,255,.018), rgba(255,255,255,.07) 54%, transparent 56%),
+    repeating-linear-gradient(90deg, transparent 0 108px, rgba(255,255,255,.12) 108px 110px);
   mix-blend-mode: screen;
-  opacity: .28;
+  opacity: .46;
 }
 .hero-copy { position: relative; width: min(610px, 62%); z-index: 1; }
 .hero-chip {

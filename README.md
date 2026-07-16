@@ -8,15 +8,15 @@ ArcProof is a testnet demo for digital-service escrow on Arc. A client can creat
 
 ## Live demo
 
-- Frontend: `PASTE_VERCEL_OR_NETLIFY_URL`
-- Contract: `PASTE_ARCSCAN_CONTRACT_URL`
-- Verified source: `PASTE_ARCSCAN_VERIFIED_URL`
 
-Add one screenshot or short GIF after deployment:
+- Frontend: https://arcproof-neon.vercel.app/
+- Contract: Pending Arc Testnet deployment
+- Verified source: Pending ArcScan verification
 
-```text
-docs/arcproof-demo.gif
-```
+![ArcProof dashboard](docs/arcproof-dashboard.png)
+
+![ArcProof demo flow](docs/arcproof-demo.gif)
+
 
 ## Problem
 

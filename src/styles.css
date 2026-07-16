@@ -191,7 +191,7 @@ h2, h3 { letter-spacing: 0; }
   position: relative;
   overflow: hidden;
   padding: 46px 50px;
-  border: 1px solid rgba(255, 255, 255, .22);
+  border: 1px solid rgba(80, 145, 178, .18);
   border-radius: 8px;
   background:
     linear-gradient(90deg, rgba(4, 8, 28, .98) 0%, rgba(6, 19, 48, .98) 22%, rgba(0, 77, 119, .9) 48%, rgba(0, 210, 225, .78) 72%, rgba(218, 239, 0, .92) 100%),
@@ -539,4 +539,3 @@ h2, h3 { letter-spacing: 0; }
   .balance-pill { order: 3; }
   .modal { padding: 25px 19px; }
 }
-

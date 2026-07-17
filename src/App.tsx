@@ -240,18 +240,18 @@ export default function App() {
       <aside className="sidebar">
         <div className="brand" onClick={() => setView("dashboard")} role="button" tabIndex={0}>
           <div className="brand-mark" aria-hidden="true">
-  <svg viewBox="0 0 36 36" role="img">
-    <defs>
-      <linearGradient id="brand-lock-fill" x1="7" y1="2" x2="31" y2="35" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#d9fbff" />
-        <stop offset="0.58" stopColor="#9cefff" />
-        <stop offset="1" stopColor="#74dff0" />
-      </linearGradient>
-    </defs>
-    <path fill="url(#brand-lock-fill)" d="M29.8 15.7v-3.9C29.8 5.1 25 1 18 1S6.2 5.1 6.2 11.8v3.9C3.6 17.1 2 19.7 2 22.6v7C2 33.1 4.9 36 8.4 36h19.2c3.5 0 6.4-2.9 6.4-6.4v-7c0-2.9-1.6-5.5-4.2-6.9ZM12.5 14.8h11v-3c0-3.5-2.1-5.6-5.5-5.6s-5.5 2.1-5.5 5.6v3Z" />
-    <text x="18" y="29.5" textAnchor="middle">A</text>
-  </svg>
-</div>
+            <svg viewBox="0 0 54 74" role="img">
+              <defs>
+                <linearGradient id="brand-lock-fill" x1="4" y1="3" x2="51" y2="72" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#d9fbff" />
+                  <stop offset="0.58" stopColor="#9cefff" />
+                  <stop offset="1" stopColor="#74dff0" />
+                </linearGradient>
+              </defs>
+              <path fill="url(#brand-lock-fill)" fillRule="evenodd" clipRule="evenodd" d="M48 32V23.7C48 10.8 38.9 2 27 2S6 10.8 6 23.7V32C2.4 33.8 0 37.5 0 41.8v21.4C0 69.2 4.8 74 10.8 74h32.4C49.2 74 54 69.2 54 63.2V41.8C54 37.5 51.6 33.8 48 32ZM16.5 23.7V31h21V23.7C37.5 16.8 33.4 12 27 12S16.5 16.8 16.5 23.7Z" />
+              <text x="27" y="58" textAnchor="middle">A</text>
+            </svg>
+          </div>
           <div>
             <div className="brand-name">ArcProof</div>
             <div className="brand-subtitle">Digital service escrow</div>
@@ -270,7 +270,6 @@ export default function App() {
             <div className="network-top"><span className="live-dot" /> {isLive ? "Live contract" : "Demo mode"}</div>
             <p>{isLive ? shortAddress(configuredEscrowAddress) : "Local workflow; no wallet transaction is sent."}</p>
           </div>
-          
         </div>
       </aside>
 

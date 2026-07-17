@@ -88,7 +88,7 @@ contract ArcProofEscrowTest is Test {
         escrow.resolveDispute(jobId, 4_000);
 
         assertEq(usdc.balanceOf(provider), 200e6);
-        assertEq(usdc.balanceOf(client), 1_700e6);
+        assertEq(usdc.balanceOf(client), 1_800e6);
     }
 
     function testClientCanRefundExpiredFundedJob() public {

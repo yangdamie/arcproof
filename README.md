@@ -16,7 +16,35 @@ ArcProof is a testnet demo for digital-service escrow on Arc. A client can creat
 ![ArcProof dashboard](docs/arcproof-dashboard.png)
 
 ![ArcProof demo flow](docs/arcproof-demo.gif)
+## Deployment and verification
 
+ArcProofEscrow is deployed and verified on Arc Testnet.
+
+- RPC URL: https://rpc.testnet.arc.network
+- Chain ID: 5042002
+- USDC interface: 0x3600000000000000000000000000000000000000
+- Escrow contract: https://testnet.arcscan.app/address/0x891B9413608EA09EeD17a98ac88D2A6e2EB5b70a
+- Verified source: https://testnet.arcscan.app/address/0x891B9413608EA09EeD17a98ac88D2A6e2EB5b70a?tab=contract
+
+Run contract tests:
+
+```bash
+cd contracts
+forge test
+```
+
+Deploy to Arc Testnet:
+
+```bash
+source .env
+forge script script/DeployArcProof.s.sol:DeployArcProof --rpc-url arc_testnet --broadcast
+```
+
+After deployment, set the Vercel environment variable and redeploy:
+
+```env
+VITE_ARCPROOF_ESCROW_ADDRESS=0x891B9413608EA09EeD17a98ac88D2A6e2EB5b70a
+```
 
 ## Problem
 

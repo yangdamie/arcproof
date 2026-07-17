@@ -239,7 +239,19 @@ export default function App() {
     <div className="shell">
       <aside className="sidebar">
         <div className="brand" onClick={() => setView("dashboard")} role="button" tabIndex={0}>
-          <div className="brand-mark">A</div>
+          <div className="brand-mark" aria-hidden="true">
+  <svg viewBox="0 0 36 36" role="img">
+    <defs>
+      <linearGradient id="brand-lock-fill" x1="7" y1="2" x2="31" y2="35" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#d9fbff" />
+        <stop offset="0.58" stopColor="#9cefff" />
+        <stop offset="1" stopColor="#74dff0" />
+      </linearGradient>
+    </defs>
+    <path fill="url(#brand-lock-fill)" d="M29.8 15.7v-3.9C29.8 5.1 25 1 18 1S6.2 5.1 6.2 11.8v3.9C3.6 17.1 2 19.7 2 22.6v7C2 33.1 4.9 36 8.4 36h19.2c3.5 0 6.4-2.9 6.4-6.4v-7c0-2.9-1.6-5.5-4.2-6.9ZM12.5 14.8h11v-3c0-3.5-2.1-5.6-5.5-5.6s-5.5 2.1-5.5 5.6v3Z" />
+    <text x="18" y="29.5" textAnchor="middle">A</text>
+  </svg>
+</div>
           <div>
             <div className="brand-name">ArcProof</div>
             <div className="brand-subtitle">Digital service escrow</div>
@@ -258,7 +270,7 @@ export default function App() {
             <div className="network-top"><span className="live-dot" /> {isLive ? "Live contract" : "Demo mode"}</div>
             <p>{isLive ? shortAddress(configuredEscrowAddress) : "Local workflow; no wallet transaction is sent."}</p>
           </div>
-          <a className="docs-link" href="https://docs.arc.network" target="_blank" rel="noreferrer">Arc developer docs -&gt;</a>
+          
         </div>
       </aside>
 

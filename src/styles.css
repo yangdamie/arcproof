@@ -61,7 +61,7 @@ h1, h2, h3, p { margin-top: 0; }
 
 .brand-mark text {
   fill: #061225;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 900;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
 }
@@ -545,5 +545,4 @@ h2, h3 { letter-spacing: 0; }
   .balance-pill { order: 3; }
   .modal { padding: 25px 19px; }
 }
-
 

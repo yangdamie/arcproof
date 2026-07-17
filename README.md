@@ -10,8 +10,8 @@ ArcProof is a testnet demo for digital-service escrow on Arc. A client can creat
 
 
 - Frontend: https://arcproof-neon.vercel.app/
-- Contract: Pending Arc Testnet deployment
-- Verified source: Pending ArcScan verification
+- Contract: https://testnet.arcscan.app/address/0x891B9413608EA09EeD17a98ac88D2A6e2EB5b70a
+- Verified source: https://testnet.arcscan.app/address/0x891B9413608EA09EeD17a98ac88D2A6e2EB5b70a?tab=contract
 
 ![ArcProof dashboard](docs/arcproof-dashboard.png)
 
